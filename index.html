@@ -100,3 +100,135 @@
 
 </label>
 </form></body></html>
+</head>
+<body>
+<header>
+  <div class="container">
+    <img src="логотип.png" alt="Логотип">
+    <h1>Название сайта</h1>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h1>Список ссылок</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Колонка 1</th>
+      <th>Колонка 2</th>
+      <th>Колонка 3</th>
+      <th>Колонка 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="even-row">
+      <td>Строка 1, ячейка 1</td>
+      <td>Строка 1, ячейка 2</td>
+      <td>Строка 1, ячейка 3</td>
+      <td>Строка 1, ячейка 4</td>
+    </tr>
+    <tr class="odd-row">
+      <td>Строка 2, ячейка 1</td>
+      <td>Строка 2, ячейка 2</td>
+      <td>Строка 2, ячейка 3</td>
+      <td>Строка 2, ячейка 4</td>
+    </tr>
+    <tr class="even-row">
+      <td>Строка 3, ячейка 1</td>
+      <td>Строка 3, ячейка 2</td>
+      <td>Строка 3, ячейка 3</td>
+      <td>Строка 3, ячейка 4</td>
+    </tr>
+    <tr class="odd-row">
+      <td>Строка 4, ячейка 1</td>
+      <td>Строка 4, ячейка 2</td>
+      <td>Строка 4, ячейка 3</td>
+      <td>Строка 4, ячейка 4</td>
+    </tr>
+    <tr class="even-row">
+      <td>Строка 5, ячейка 1</td>
+      <td>Строка 5, ячейка 2</td>
+      <td>Строка 5, ячейка 3</td>
+      <td>Строка 5, ячейка 4</td>
+    </tr>
+    <tr class="odd-row">
+      <td>Строка 6, ячейка 1</td>
+      <td>Строка 6, ячейка 2</td>
+      <td>Строка 6, ячейка 3</td>
+      <td>Строка 6, ячейка 4</td>
+    </tr>
+  </tbody>
+</table>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2023 Название сайта. Все права защищены.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+```
+
+CSS:
+```
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #ccc;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.even-row {
+  background-color: #f2f2f2;
+}
+
+.odd-row {
+  background-color: #e6e6e6;
+}
+
+footer p {
+  margin: 0;
+}
