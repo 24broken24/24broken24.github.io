@@ -47,11 +47,11 @@ thead {
 }
 
 tbody tr:nth-child(even) {
-    background-color:red;
+    background-color:grey;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: blue;
+    background-color: black;
 }
 @media screen and (min-width: 981px) {
     header {
