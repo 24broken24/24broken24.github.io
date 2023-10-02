@@ -43,15 +43,15 @@ table {
 }
 
 thead {
-    background-color: #ccc;
+    background-color: gray;
 }
 
 tbody tr:nth-child(even) {
-    background-color:grey;
+    background-color:purple;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: black;
+    background-color: blue;
 }
 @media screen and (min-width: 981px) {
     header {
