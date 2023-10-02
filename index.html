@@ -9,10 +9,10 @@
 <body>
   <header>
     <img src="logotip.png" alt="Волк" width="150"/>
-    <a href="https://github.com/Fidjanis/Fidjanis.github.io/tree/main">Ссылка на Github</a>
+    <a href="https://github.com/24broken24/24broken24.github.io/tree/main">Ссылка на Github</a>
     <a href="#table">Ссылка на таблицу </a>
     <a href="#form">Ссылка на форму</a>
-    <h1>Web_2</h1>
+    <h1>Задание 2</h1>
   </header>
   <nav>
     <h1>Список ссылок(web1)</h1>
@@ -112,77 +112,65 @@
     
 <form action="/" method="POST">
 
-<label>
-  Ваши ФИО:<br />
-  <input name="field"
-  id="form"
-  placeholder="Введите ФИО " required/>
-</label><br />
+<h1>Форма</h1>
+<form>
+  <label for="name">ФИО:</label>
+  <input type="text" id="name" name="name">
+
+
+
+  <label for="phone">Телефон:</label>
+  <input type="tel" id="phone" name="phone">
+
+
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email">
+
+
+
+  <label for="dob">Дата рождения:</label>
+  <input type="date" id="dob" name="dob">
+
+
+
+  <label>Пол:</label>
+
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Мужской</label>
+
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Женский</label>
+
+
 
 <label>
-    Телефон:<br />
-    <input name="field-number"
-    type="tel"
-    placeholder="Введите телефон" required/>
-  </label><br />
-
-<label>
-  Ваш email:<br />
-  <input name="field-email"
-    type="email"
-    placeholder="Введите вашу почту" required/>
-</label><br />
-
-<label>
-  Даты:<br />
-  <input name="field-date"
-    type="date" required/>
-</label><br />
-
-Выберите пол:<br />
-<label><input type="radio" 
-  checked="checked"
-  name="gender" value="Мужской" />
-  Мужской</label>
-<label><input type="radio"
-  name="gender" value="Женский" required/>
-  Женский</label><br />
-
-  <label>
-    Любимый язык программирования:
-    <br />
-    <select name="field-language"
-      multiple="multiple" required>
-      <option value="1">Pascal</option>
-      <option value="2">C</option>
-      <option value="3">C++</option>
-      <option value="4">JavaScript</option>
-      <option value="5">PHP</option>
-      <option value="6">Python</option>
-      <option value="7">Java</option>
-      <option value="8">Haskel</option>
-      <option value="9">Clojure</option>
-      <option value="10">Prolog</option>
-      <option value="11">Scala</option>
-    </select>
-  </label><br />
+<select name="field-name-4" multiple="multiple">
+<option value=""> Твой любимый язык программирования</option>
+<option value="1"> Pascal</option>
+<option value="2"> C</option>
+<option value="3"> C++</option>
+<option value="4"> JavaScript</option>
+<option value="5"> PHP</option>
+<option value="6"> Python</option>
+<option value="7"> Java</option>
+<option value="8"> Haskel</option>
+<option value="9"> Clojure</option>
+<option value="10"> Prolog</option>
+<option value="11"> Scala</option>
+</select>
 
 <label>
     Ваша биография:<br />
   <textarea name="field-biography" required></textarea>
 </label><br />
-
-<label><input type="checkbox" 
-  name="check-1" required />
-  С контрактом ознакомлен (а)</label><br />
-
 <label>
     <input type="submit" value="Сохранить" />
 </label>
 </form>
 </nav>
 <footer>
-  (c) Богдан Ким
+  (c) Юрий Иневаткин
 </footer>
 </body>
 </html>
