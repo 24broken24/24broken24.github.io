@@ -51,7 +51,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: blue;
+    background-color: white;
 }
 @media screen and (min-width: 981px) {
     header {
