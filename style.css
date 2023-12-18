@@ -1,13 +1,13 @@
 header {
     width:100%;
-    background-color: white;
+    background-color: chocolate;
     padding: 10px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
 body{
-    background-color: purple; 
+    background-color: crimson; 
 }
 
 header img {
@@ -18,7 +18,7 @@ header img {
 }
 
 header a{
-    background-color: white;
+    background-color: chocolate;
     padding:10px;
     float: right;
 }
@@ -32,7 +32,7 @@ nav {
 
 footer {
     width: 100%;
-    background-color: white;
+    background-color: chocolate;
     padding:50px;
 }
 
@@ -43,15 +43,15 @@ table {
 }
 
 thead {
-    background-color: gray;
+    background-color: #ccc;
 }
 
 tbody tr:nth-child(even) {
-    background-color:purple;
+    background-color:red;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: white;
+    background-color: blue;
 }
 @media screen and (min-width: 981px) {
     header {
