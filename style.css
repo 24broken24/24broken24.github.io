@@ -1,1 +1,63 @@
+header {
+    width:100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+body{
+    background-color: purple; 
+}
 
+header img {
+    float:left;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+header a{
+    background-color: white;
+    padding:10px;
+    float: right;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding:50px;
+}
+
+table {
+    width: 960px;
+    margin: 0 auto;
+    order: -1;
+}
+
+thead {
+    background-color: gray;
+}
+
+tbody tr:nth-child(even) {
+    background-color:purple;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+@media screen and (min-width: 981px) {
+    header {
+        flex-direction: row;
+    }
+    table {
+        order: 0;
+    }
+}
